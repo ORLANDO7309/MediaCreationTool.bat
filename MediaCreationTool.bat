@@ -2,10 +2,10 @@
 :Universal MCT wrapper script for all Windows 10/11 versions from 1507 to 21H2!
 :: Nothing but Microsoft-hosted source links and no third-party tools; script just configures an xml and starts MCT
 :: Ingenious support for business editions (Enterprise / VL) selecting language, x86, x64 or AiO inside the MCT GUI
-:: Changelog: 2021.12.22
+:: Changelog: 2022.01.20
 :: - improved auto.cmd handling of mismatched OS and target edition, obey 'def', 'auto' upgrades 7 to 10, not 11
 :: - skip 11 checks only via auto.cmd - ignore server label, please; local acc on 11 Home; output to CD or C:\ESD
-:: 11: 22000.318 / 21H2: 19044.1288 / 21H1: 19043.1348 / 20H2: 19042.1052 / 2004: 19041.572 / 1909: 18363.1139
+:: 11: 22000.438 / 21H2: 19044.1288 / 21H1: 19043.1348 / 20H2: 19042.1052 / 2004: 19041.572 / 1909: 18363.1139
 
 ::# uncomment to skip GUI dialog for MCT choice: 1507 to 2109 / 11 - or rename script: "21H2 MediaCreationTool.bat"
 rem set MCT=2110
